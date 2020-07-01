@@ -1,9 +1,6 @@
 const express = require('express');
-const bodyParser = require('body-parser')
 const path = require('path');
 const app = express();
-//import fetch from "unfetch";
-//const fetch = require("unfetch");
 const fetch = require("node-fetch");
 
 app.use(express.static(path.join(__dirname, 'build')));
